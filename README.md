@@ -1,4 +1,4 @@
-# MURA-RLEnsemble-V1
+# MURA-RL-DeepEnsembleV1-81.57
 
 ## Overview  
 MURA-RLEnsemble-V1 is an ensemble model inspired by the research presented in DeepSeek-R1, exploring reinforcement learning (RL) techniques to improve the classification of musculoskeletal fractures in X-ray images. The model is a reinforcement learning-enhanced ensemble of multiple base models, where a learned RL-based weighting agent combines predictions based on body part classification, providing a more tailored decision-making process.
@@ -22,7 +22,7 @@ The model weights can be downloaded from the [GitHub Releases] https://github.co
   - **XR_FOREARM**: 93.01% (Train), 81.67% (Val)  
 
 ## Model Architecture  
-The **MURA-RLEnsemble-V1** architecture is based on three core components:  
+The **MURA-RL-DeepEnsembleV1-81.57** architecture is based on three core components:  
 
 ### **1. BaseModel (Residual CNN with Attention)**
 - Residual-based feature extraction with **EnhancedBlock** architecture.
